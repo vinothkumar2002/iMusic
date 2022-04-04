@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+#showcase {
+    margin: 0;
+    padding: 0;
+    background: url(mus.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+}
+#showcase .container {
+    margin-top: 25vh;
+}
+
+#showcase h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+#showcase h2 {
+    font-size: 2rem;
+  }
+a {
+    text-decoration: none;
+    color: #ccc;
+  }
+.mb {
+    margin-bottom: 1rem;
+  }
+
+  .mt {
+    margin-top: 1rem;
+  }
+nav {
+    height: 40px;
+    width: 100%;
+    background-color: #333;
+    color: rgb(51, 34, 34);
+    position: fixed;
+  }
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  nav li {
+    display: inline;
+    float: left;
+  }
+  nav a {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #eee;
+    
+  }
+div {
+    display: block;
+}
+.container {
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+  }
+section{
+	display: block;
+}
+section#entertainment {
+    background: url("mus2.jpg") no-repeat bottom/cover;
+    padding: 10rem 0;
+}
+.section-head {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.section h3 {
+    font-size: 2rem;
+}
+.bg-light {
+    background: #ffe6e6;
+    color: #333;
+}
+.text-primary {
+    color:#b90415;
+  }
+
+  .text-secondary {
+    color:  #103063;
+  }
+
+  .text-light {
+    color: #ffe6e6;
+  }
+
+  .bg-light {
+    background:#ffe6e6;
+    color: #333;
+  }
+.btn {
+    padding: 1rem;
+    color: red;
+    display: inline-block;
+	
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #252529;
+    margin: 0;
+    color: #fff;
+    line-height: 1.6;
+}
+.gift-cards {
+    display: block;
+  
+    text-align: center;
+  }
+
+
+.text-center {
+    text-align: center;
+  }
+
